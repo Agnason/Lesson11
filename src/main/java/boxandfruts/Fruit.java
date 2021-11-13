@@ -1,4 +1,4 @@
-package BoxAndFruts;
+package boxandfruts;
 
 public class Fruit {
     private int count;
@@ -11,7 +11,6 @@ public class Fruit {
     public Fruit(int count, float weight) {
         this.count = count;
         this.fruitWeight = weight;
-
     }
 
     public int getCount() {
@@ -35,5 +34,4 @@ public class Fruit {
         System.out.println("В ящик " + box.hashCode() + " добавили " +
                 getFruitWeight() * getCount() + " " + this);
     }
-
 }

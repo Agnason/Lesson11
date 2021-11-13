@@ -1,4 +1,4 @@
-package BoxAndFruts;
+package boxandfruts;
 
 import java.util.ArrayList;
 
@@ -20,7 +20,6 @@ public class Box<T extends Fruit> {
     public float getWeight() {
         float totalWeight = 0l;
         for (Float portion : box) {
-
             totalWeight += portion;
         }
         System.out.println("Вес ящика " + hashCode() + " " + totalWeight);
@@ -41,7 +40,5 @@ public class Box<T extends Fruit> {
         another.box.clear();
         System.out.println("В ящик " + this.hashCode() + " переложили содержимое ящика " + another.hashCode());
     }
-
-
 }
 

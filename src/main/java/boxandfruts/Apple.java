@@ -1,4 +1,4 @@
-package BoxAndFruts;
+package boxandfruts;
 
 public class Apple extends Fruit {
     public Apple(int count) {

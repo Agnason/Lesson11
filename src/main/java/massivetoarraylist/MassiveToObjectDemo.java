@@ -1,12 +1,9 @@
-package MassiveToArrayList;
-
-import java.util.Arrays;
-import java.util.List;
+package massivetoarraylist;
 
 public class MassiveToObjectDemo {
     public static void main(String[] args) {
 
-        MassiveToObject<Integer> array = new MassiveToObject<>(1,2,3,4,5);
+        MassiveToObject<Integer> array = new MassiveToObject<>(1, 2, 3, 4, 5);
         MassiveToObject<String> array2 = new MassiveToObject<>("Маша", "Оля", "Петя", "Вася");
         array.print();
         array.swapFromTo(0, 1);
@@ -16,8 +13,6 @@ public class MassiveToObjectDemo {
         array2.print();
         array.change(array.array);
         array2.change(array2.array);
-
-
     }
 }
 
